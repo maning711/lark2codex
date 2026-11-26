@@ -1,0 +1,26 @@
+{
+  "name": "lark2codex",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node bridge.mjs",
+    "setup": "python3 setup.py",
+    "test": "node --test test.mjs",
+    "service": "python3 service.py",
+    "register": "node register.mjs",
+    "doctor": "node doctor.mjs"
+  },
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "1.77.0"
+  },
+  "description": "A local Feishu/Lark messaging bridge for Codex desktop-visible conversations",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maning711/lark2codex.git"
+  }
+}
